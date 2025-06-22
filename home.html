@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wabope :3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body class="bg-pink-50 text-gray-700">
+
+    <div id="loader" class="fixed inset-0 bg-pink-50 z-[100] flex justify-center items-center transition-opacity duration-1000 ease-in-out">
+        <div class="relative w-64 h-64">
+            <div class="sparkle-loader">:3</div>
+            <div class="sparkle-loader">:D</div>
+            <div class="sparkle-loader">c:</div>
+            <div class="sparkle-loader">☆</div>
+
+            <div class="absolute inset-0 flex flex-col justify-center items-center text-center">
+                 <div class="text-2xl font-bold text-pink-500 animate-pulse">
+                    loading Wabope...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-sm shadow-md z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-pink-500 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-pink-400"><path d="M12 2L12 22"></path><path d="M20 12L4 12"></path><path d="M20 12L12 22"></path><path d="M12 2L4 12"></path><path d="M20 2L4 22"></path><path d="M4 2L20 22"></path></svg>
+                <span>Wabope</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#projects" class="text-gray-600 hover:text-pink-500 transition-colors duration-300">Projects</a>
+                <a href="#forum" class="text-gray-600 hover:text-pink-500 transition-colors duration-300">Forums</a>
+                <a href="#clients" class="text-gray-600 hover:text-pink-500 transition-colors duration-300">Client Tools</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24">
+
+        <section class="text-center py-20 px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-pink-500 mb-4">Welcome to my space!</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">A cozy corner of the internet where ideas bloom and creativity sparkles.</p>
+        </section>
+
+        <section class="px-6 mb-16">
+            <div class="container mx-auto max-w-3xl bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-pink-100">
+                <h2 class="text-3xl font-bold text-pink-500 mb-4 text-center">Hellooo! :D</h2>
+                <p class="text-gray-600 text-lg leading-relaxed text-center">
+                    Wabope is basically my lil' cozy space where I share stuff... cool stuff, and maybe cursed stuff too (in a good way ofc). You're welcome to explore, poke around, and maybe leave a note or two in the forums! :3
+                </p>
+            </div>
+        </section>
+
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+
+            <div id="projects" class="bg-white p-8 rounded-2xl shadow-lg border border-pink-100 text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-pink-500 mb-3">My Projects</h3>
+                <p class="text-gray-600 mb-6">Explore the things that I have made and ideas I have published! :3</p>
+                <a href="#" class="bg-pink-500 text-white font-bold py-2 px-6 rounded-full hover:bg-pink-600 transition-colors duration-300">Click Here!</a>
+            </div>
+
+            <div id="forum" class="bg-white p-8 rounded-2xl shadow-lg border border-pink-100 text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-pink-500 mb-3">Forum</h3>
+                <p class="text-gray-600 mb-6">Come hang out with the community and see what we're chatting about! :P</p>
+                <a href="#" class="bg-pink-500 text-white font-bold py-2 px-6 rounded-full hover:bg-pink-600 transition-colors duration-300">Click Here!</a>
+            </div>
+
+            <div id="clients" class="bg-white p-8 rounded-2xl shadow-lg border border-pink-100 text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-pink-500 mb-3">Client Tools</h3>
+                <p class="text-gray-600 mb-6">Tools and templates designed for flexibility and customization. :D</p>
+                <a href="#" class="bg-pink-500 text-white font-bold py-2 px-6 rounded-full hover:bg-pink-600 transition-colors duration-300">Click Here!</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="text-center py-8 px-6">
+        <p class="text-pink-400">&copy; 2025 Wabope. Created with code, chaos, and love. 💖</p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
