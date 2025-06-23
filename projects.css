@@ -1,6 +1,9 @@
 body {
     font-family: 'Nunito', sans-serif;
     scroll-behavior: smooth;
+    background-image:
+        radial-gradient(circle at 1px 1px, #fbcfe8 1px, transparent 0);
+    background-size: 20px 20px;
 }
 
 .sparkle-text {
@@ -30,10 +33,4 @@ body {
 .card-hover-effect:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(236, 72, 153, 0.2), 0 0 15px rgba(244, 114, 182, 0.1);
-}
-
-body {
-    background-image:
-        radial-gradient(circle at 1px 1px, #fbcfe8 1px, transparent 0);
-    background-size: 20px 20px;
 }
