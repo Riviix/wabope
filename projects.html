@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wabope - My Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body class="bg-pink-50 text-gray-700">
+
+    <header class="sticky top-0 left-0 w-full bg-white/80 backdrop-blur-sm shadow-md z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="home.html" class="text-2xl font-bold text-pink-500 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-pink-400"><path d="M12 2L12 22"></path><path d="M20 12L4 12"></path><path d="M20 12L12 22"></path><path d="M12 2L4 12"></path><path d="M20 2L4 22"></path><path d="M4 2L20 22"></path></svg>
+                <span>Wabope</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#projects" class="text-pink-500 font-bold">Projects</a>
+                <a href="index.html#forum" class="text-gray-600 hover:text-pink-500 transition-colors duration-300">Forums</a>
+                <a href="index.html#clients" class="text-gray-600 hover:text-pink-500 transition-colors duration-300">Client Tools</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-12">
+        <section class="text-center pt-8 pb-16 px-6">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-pink-500 mb-4">My Creations & Ideas</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">A little gallery of things I've built and dreamed up. Hope you like them! :3</p>
+        </section>
+
+        <section id="projects" class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+                <div class="project-card card-hover-effect bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300">
+                    <img src="https://placehold.co/600x400/fecdd3/ec4899?text=Game+Project+Image+:D" alt="Placeholder image for a game project" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-2xl font-bold text-gray-800">Placeholder</h3>
+                            <span class="bg-pink-100 text-pink-700 text-xs font-semibold px-2.5 py-1 rounded-full">Game</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Placeholder. :3</p>
+                        <a href="#" class="font-bold text-pink-500 hover:text-pink-600 transition-colors">View Details →</a>
+                    </div>
+                </div>
+
+                <div class="project-card card-hover-effect bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300">
+                    <img src="https://placehold.co/600x400/fbcfe8/be185d?text=Web+App+Screenshot+c:" alt="Placeholder image for a web app" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-2xl font-bold text-gray-800">Placeholder</h3>
+                             <span class="bg-purple-100 text-purple-700 text-xs font-semibold px-2.5 py-1 rounded-full">Web App</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Placeholder.</p>
+                        <a href="#" class="font-bold text-pink-500 hover:text-pink-600 transition-colors">View Details →</a>
+                    </div>
+                </div>
+
+                <div class="project-card card-hover-effect bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300">
+                    <img src="https://placehold.co/600x400/f9a8d4/9d174d?text=Customizable+Tool+;)" alt="Placeholder image for a tool" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                             <h3 class="text-2xl font-bold text-gray-800">Placeholder</h3>
+                             <span class="bg-sky-100 text-sky-700 text-xs font-semibold px-2.5 py-1 rounded-full">Client Tool</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Placeholder. :P</p>
+                        <a href="#" class="font-bold text-pink-500 hover:text-pink-600 transition-colors">View Details →</a>
+                    </div>
+                </div>
+
+                <!-- si quiero agregar mas proyectos solo copia y pega -->
+                
+            </div>
+        </section>
+
+    </main>
+    <footer class="text-center py-10 mt-16 px-6">
+        <p class="text-pink-400">&copy; 2025 Wabope. Built with pixels and dreams. ✨</p>
+    </footer>
+
+    <script src="projects.js"></script>
+</body>
+</html>

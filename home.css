@@ -39,3 +39,9 @@ body {
 .sparkle-loader:nth-child(2) { top: 20%; right: 10%; animation-delay: -1s; }
 .sparkle-loader:nth-child(3) { bottom: 25%; left: 25%; animation-delay: -2s; }
 .sparkle-loader:nth-child(4) { bottom: 15%; right: 20%; animation-delay: -3s; }
+
+body {
+    background-image:
+        radial-gradient(circle at 1px 1px, #fbcfe8 1px, transparent 0);
+    background-size: 20px 20px;
+}

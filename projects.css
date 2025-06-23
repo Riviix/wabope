@@ -1,0 +1,39 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.sparkle-text {
+    color: #ec4899;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(236, 72, 153, 0.6);
+    animation: sparkle-pulse 1.5s infinite ease-in-out;
+    display: inline-block;
+}
+
+@keyframes sparkle-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.project-card {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.project-card.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(236, 72, 153, 0.2), 0 0 15px rgba(244, 114, 182, 0.1);
+}
+
+body {
+    background-image:
+        radial-gradient(circle at 1px 1px, #fbcfe8 1px, transparent 0);
+    background-size: 20px 20px;
+}
